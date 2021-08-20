@@ -11,6 +11,7 @@
     <modules>
         <module>Engine</module>
         <module>Editor</module>
+        <module>lwjgl3-demos</module>
     </modules>
 
     <properties>

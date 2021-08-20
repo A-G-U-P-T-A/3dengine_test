@@ -20,6 +20,7 @@
         <steamworks4j.version>1.8.0</steamworks4j.version>
         <steamworks4j-server.version>1.8.0</steamworks4j-server.version>
         <lwjgl.natives>natives-windows</lwjgl.natives>
+        <google.guice>5.0.1</google.guice>
     </properties>
 
     <dependencyManagement>
@@ -366,6 +367,12 @@
             <groupId>com.code-disaster.steamworks4j</groupId>
             <artifactId>steamworks4j-server</artifactId>
             <version>${steamworks4j-server.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>${google.guice}</version>
         </dependency>
     </dependencies>
 
