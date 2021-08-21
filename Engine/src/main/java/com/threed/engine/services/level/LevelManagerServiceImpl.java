@@ -1,6 +1,6 @@
-package services.displaymanagerservice;
+package com.threed.engine.services.level;
 
-import factory.WindowFactory;
+import com.threed.engine.factory.WindowFactory;
 import org.lwjgl.glfw.GLFWErrorCallback;
 import org.lwjgl.opengl.GL;
 
@@ -14,7 +14,7 @@ import static org.lwjgl.system.MemoryUtil.NULL;
 /**
  * The type Display manager service.
  */
-public class DisplayManagerServiceImpl implements DisplayManagerService {
+public class LevelManagerServiceImpl implements LevelManagerService {
 
 
     @Override

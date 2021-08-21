@@ -78,7 +78,7 @@ import org.lwjgl.vulkan.VkViewport;
  * Renders a simple colored triangle on a cornflower blue background on a GLFW window with Vulkan.
  * <p>
  * This is like the {@link TriangleDemo}, but adds an additional "color" vertex attribute.
- * Do a diff between those two classes to see what's new.
+ * Do a diff between those two com.threed.engine.classes to see what's new.
  * 
  * @author Kai Burjack
  */

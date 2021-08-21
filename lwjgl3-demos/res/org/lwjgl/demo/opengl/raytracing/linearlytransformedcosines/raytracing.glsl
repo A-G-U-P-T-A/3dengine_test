@@ -72,9 +72,9 @@ struct hitinfo {
  * Adapted from: https://eheitzresearch.wordpress.com/415-2/
  */
 int clipQuadToHorizon(inout vec3 L0, inout vec3 L1, inout vec3 L2, inout vec3 L3, inout vec3 L4) {
-  int config = int(L0.z > 0.0)<<0 | int(L1.z > 0.0)<<1
+  int com.threed.engine.config = int(L0.z > 0.0)<<0 | int(L1.z > 0.0)<<1
              | int(L2.z > 0.0)<<2 | int(L3.z > 0.0)<<3;
-  switch (config) {
+  switch (com.threed.engine.config) {
   case 1:
     L1 = -L1.z * L0 + L0.z * L1;
     L2 = -L3.z * L0 + L0.z * L3;

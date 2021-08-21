@@ -86,7 +86,7 @@ import org.lwjgl.vulkan.VkWriteDescriptorSet;
  * Renders a simple rotating colored quad on a cornflower blue background on a GLFW window with Vulkan.
  * <p>
  * This is like the {@link ColoredTriangleDemo}, but adds an additional rotation.
- * Do a diff between those two classes to see what's new.
+ * Do a diff between those two com.threed.engine.classes to see what's new.
  * 
  * @author Kai Burjack
  */

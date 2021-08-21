@@ -1,4 +1,4 @@
-package factory;
+package com.threed.engine.factory;
 
 /**
  * The type WindowFactory.
@@ -37,7 +37,7 @@ public class WindowFactory {
      * @return the width
      */
     public int getWidth() {
-        return width;
+        return this.width;
     }
 
     /**
@@ -46,7 +46,7 @@ public class WindowFactory {
      * @return the height
      */
     public int getHeight() {
-        return height;
+        return this.height;
     }
 
     /**
@@ -55,7 +55,7 @@ public class WindowFactory {
      * @return the title
      */
     public String getTitle() {
-        return title;
+        return this.title;
     }
 
     /**
@@ -66,9 +66,9 @@ public class WindowFactory {
     @Override
     public String toString() {
         return "WindowFactory{" +
-                "width=" + width +
-                ", height=" + height +
-                ", title='" + title + '\'' +
+                "width=" + this.width +
+                ", height=" + this.height +
+                ", title='" + this.title + '\'' +
                 '}';
     }
 }
