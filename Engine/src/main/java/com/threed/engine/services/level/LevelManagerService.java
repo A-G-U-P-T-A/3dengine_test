@@ -13,19 +13,19 @@ public interface LevelManagerService {
      *
      * @return the long
      */
-    public long createWindow(WindowFactory windowFactory);
+    public void createWindow(WindowFactory windowFactory);
 
     /**
      * Update window.
      *
-     * @param window the window
+     * @param windowFactory the window
      */
-    public void updateWindow(long window);
+    public void updateWindow(WindowFactory windowFactory);
 
     /**
      * Close window.
      *
-     * @param window the window
+     * @param windowFactory the window
      */
-    public void closeWindow(long window);
+    public void closeWindow(WindowFactory windowFactory);
 }

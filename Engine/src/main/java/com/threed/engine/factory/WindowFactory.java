@@ -17,6 +17,16 @@ public class WindowFactory {
      */
     private final String title;
 
+    /**
+     * The Window.
+     */
+    private long window;
+
+    /**
+     * The V sync.
+     */
+    private int vSync;
+
 
     /**
      * Instantiates a new WindowFactory.
@@ -29,6 +39,21 @@ public class WindowFactory {
         this.width = width;
         this.height = height;
         this.title = title;
+    }
+
+    /**
+     * Instantiates a new Window factory.
+     *
+     * @param width  the width
+     * @param height the height
+     * @param title  the title
+     * @param vSync  the v sync
+     */
+    public WindowFactory(int width, int height, String title, int vSync) {
+        this.width = width;
+        this.height = height;
+        this.title = title;
+        this.vSync = vSync;
     }
 
     /**
@@ -59,6 +84,33 @@ public class WindowFactory {
     }
 
     /**
+     * Gets window.
+     *
+     * @return the window
+     */
+    public long getWindow() {
+        return this.window;
+    }
+
+    /**
+     * Gets sync.
+     *
+     * @return the sync
+     */
+    public int getvSync() {
+        return this.vSync;
+    }
+
+    /**
+     * Sets window.
+     *
+     * @param window the window
+     */
+    public void setWindow(long window) {
+        this.window = window;
+    }
+
+    /**
      * To string string.
      *
      * @return the string
@@ -69,6 +121,7 @@ public class WindowFactory {
                 "width=" + this.width +
                 ", height=" + this.height +
                 ", title='" + this.title + '\'' +
+                ", window=" + this.window +
                 '}';
     }
 }
